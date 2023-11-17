@@ -13,3 +13,8 @@ html {
   scroll-behavior: smooth; /* this enables smooth scrolling between internal links */
 }
 
+.rotate-text-180{
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+  @apply rotate-180;
+}
