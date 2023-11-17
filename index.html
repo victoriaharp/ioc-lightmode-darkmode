@@ -96,4 +96,29 @@ layout: default
 
 <section class="px-[5%]">
     <h2 class="uppercase font-black text-5xl p-[5%] pl-0">Contact us</h2>
-    
+
+        <div class="grid grid-cols-2 gap-5">
+            <div class="max-w-2xl">
+                <form action="#" method="post" id="contactForm">
+                <label for="name" class="uppercase block border-b-2 border-black">Name:</label>
+                <input type="text" id="name" name="name" required class="w-full pl-3 block border border-black">
+        
+                <label for="email" class="uppercase block border-b-2 border-black">Email:</label>
+                <input type="email" id="email" name="email" required class="w-full pl-3 block border border-black">
+        
+                <label for="message" class="uppercase block border-b-2 border-black">Message:</label>
+                <textarea id="message" name="message" rows="4" required class="w-full pl-3 block border border-black"></textarea>
+                
+                <div class="text-right">
+                    <button type="submit" class="text-white bg-black border-black hover:text-black hover:bg-white hover:border-white transition px-10 py-1 mt-5 uppercase">Send it baby</button>
+                </div>
+                </form>
+            </div>
+
+            <img src="/assets/images/moody-7.jpg" class="pl-[5%]">
+        </div>
+    </section>
+
+
+    <!-- line break -->
+    <hr class="text-black">
