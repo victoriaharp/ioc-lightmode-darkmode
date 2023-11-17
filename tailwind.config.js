@@ -48,6 +48,12 @@ module.exports = {
         '60': '60vh',
         '50': '50vh',
       },
+
+      maxWidth:{
+        '50': '50%',
+        '75': '75%',
+      },
+
       aspectRatio: {
         'landscape': '3 / 2',
         'portrait-tall': '5/8',
